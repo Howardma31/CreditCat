@@ -1,4 +1,4 @@
-# CreditCat
+# CreditCat 🐱
 CreditCat is an Android App that encourages more people to adopt better spending habits through the power of cats! Let cats help your credit!
 
 ## Description ✏️
