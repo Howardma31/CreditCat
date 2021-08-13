@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
     TextView tvCoinNum;
     Button btnBuyCat;
     Button btnTasks;
+    Button btnLogout;
     int currentCatNum;
     int currentCoinNum;
 
@@ -68,8 +69,20 @@ public class MainActivity extends AppCompatActivity {
         });
 
         for (int i = 0; i < currentCatNum; i++) {
-            //spawnCat();
+            spawnCat();
         }
+
+        btnLogout = findViewById(R.id.btnLogout);
+        btnLogout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ParseUser.logOut();
+                ParseUser currentUser = ParseUser.getCurrentUser(); // this will now be null
+                Intent i = new Intent(MainActivity.this, LoginActivity.class);
+                startActivity(i);
+                finish();
+            }
+        });
     }
 
     private void spawnCat () {
