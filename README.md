@@ -21,3 +21,7 @@ CreditCat is an Android App that helps people from around the world to become be
 ### Landing Page
 
 ![image of CreditCat landing page](images/Landing.png)
+
+### Tasks Page
+
+![image of CreditCat tasks page](images/Task.png)
