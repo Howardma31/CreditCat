@@ -15,6 +15,22 @@
         android:orientation="vertical"
         />
 
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/imageView3"
+        android:src="@drawable/background"
+        android:scaleType="centerCrop"
+    />
+
+<!--    <ImageView-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:id="@+id/imageView4"-->
+<!--        android:src="@drawable/cat"-->
+<!--        android:scaleType="centerCrop"-->
+<!--        />-->
+
     <Button
         android:id="@+id/btnBuyCat"
         android:layout_width="100dp"
