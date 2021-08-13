@@ -85,6 +85,7 @@ public class LoginActivity extends AppCompatActivity {
         user.signUpInBackground(e -> {
             if (e == null) {
                 // Hooray! Let them use the app now.
+                loginUser(username, password);
             } else {
                 // Sign up didn't succeed. Look at the ParseException
                 // to figure out what went wrong
