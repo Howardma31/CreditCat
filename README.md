@@ -7,7 +7,7 @@ CreditCat is an Android App that helps people from around the world to become be
 
 ## Technologies ⚙️
 
-- Java
+- [Java](https://www.java.com/en/)
 - [Android Studio](https://developer.android.com/studio)
 - [Glide](https://github.com/bumptech/glide)
 - [Parse](https://parseplatform.org/) / [Back4App](https://dashboard.back4app.com/)
